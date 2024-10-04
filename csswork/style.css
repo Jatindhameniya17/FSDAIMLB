@@ -1,0 +1,44 @@
+.container{
+    background-color:cadetblue;
+    height:300px;
+    border:2px solid red;
+    margin: 100px;
+    box-sizing:border-box;
+    display:flex;
+    flex-wrap:wrap;
+    flex-flow:row-reverse; 
+    
+}
+.child1,.child2,.child3,.child4{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    border:2px dotted goldenrod;
+    display:inline-block;
+}
+    .child1{
+        background-color: blue;
+        margin:20px;
+        padding:10px;}
+    .child2{
+        background-color: brown;
+        margin:20px;
+        padding:10px}
+    .child3{
+        background-color: aqua;
+        margin:20px;
+        padding:10px}
+    .child4{
+        background-color: aquamarine;
+        margin:20px;
+        padding:10px}
+    /*
+div+p{
+    background-color: yellow;
+}
+#child1{
+    background-color: red;
+}
+.myclass{
+    background-color: blueviolet;
+}
