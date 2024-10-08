@@ -6,8 +6,9 @@
     box-sizing:border-box;
     display:flex;
     flex-wrap:wrap;
-    flex-flow:row-reverse; 
-    
+    flex-flow:row; 
+    justify-content:space-around;   
+    align-items: center;
 }
 .child1,.child2,.child3,.child4{
     background-color: brown;
@@ -18,6 +19,7 @@
 }
     .child1{
         background-color: blue;
+        flex-basis: 50%;
         margin:20px;
         padding:10px;}
     .child2{
