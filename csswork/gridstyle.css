@@ -39,3 +39,62 @@ ul li{
 li:hover{
     background-color: cadetblue;
 }
+.row3{
+    grid-column:1/13;
+    grid-row: 3/4;
+}
+.row4{
+    grid-column:1/13;
+    grid-row: 4/5;
+    background-color: burlywood;
+    display:flex;
+    border:2px solid gold;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+.row41,.row42,.row43,.row44 {
+    width:260px;
+    height: 300px;
+    border:1px solid red;
+
+}
+.row41{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.row411{
+    display: flex;
+    border:1px solid yellowgreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:normal;
+    margin-left: auto;
+    
+}
+.row412{
+    display: flex;
+    border:1px solid yellowgreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:normal;
+    
+}
+
+.row413{
+    display: flex;
+    border:1px solid yellowgreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:normal;
+    margin-left: auto;
+}
+.row414{
+    display: flex;
+    border:1px solid yellowgreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:normal;
+    
+}
